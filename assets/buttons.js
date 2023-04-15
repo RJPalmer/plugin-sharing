@@ -25,7 +25,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         qq: site('QQ', 'qq', 'http://connect.qq.com/widget/shareqq/index.html?url=' + url + '&title=' + title),
         qzone: site('QQ空间', 'star', 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&title=' + title),
         stumbleupon: site('StumbleUpon', 'stumbleupon', 'http://www.stumbleupon.com/submit?url=' + url + '&title=' + title),
-        twitter: site('Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + title + '&text=' + title),
+        twitter: site('Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + url + '&text=' + title),
         viber: site('Viber', 'volume-control-phone', 'viber://forward?text='+ url + ' ' + title),
         vk: site('VK', 'vk', 'http://vkontakte.ru/share.php?url=' + url),
         weibo: site('新浪微博', 'weibo', 'http://service.weibo.com/share/share.php?content=utf-8&url=' + url + '&title=' + title),

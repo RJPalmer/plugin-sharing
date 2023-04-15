@@ -29,7 +29,7 @@ Default configuration is:
             "line": false,
             "linkedin": true,
             "messenger": false,
-            "pocket": true,
+            "pocket": false,
             "qq": false,
             "qzone": false,
             "stumbleupon": false,
